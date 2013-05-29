@@ -9,5 +9,8 @@
  */
 'use strict';
 
-module.exports = require('./lib/vt');
+module.exports = {
+  vt: require('./lib/vt').vt,
+  term: require('./lib/term').term
+};
 

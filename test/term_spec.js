@@ -31,7 +31,7 @@ describe('term', function() {
 
   beforeEach(function(done) {
     pty = new events.EventEmitter();
-    term = require('../lib/term.js').term({
+    term = require('../index.js').term({
       pty: pty,
       cols: 40,
       rows: 24
