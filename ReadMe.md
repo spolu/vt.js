@@ -1,6 +1,4 @@
-## vt.js
-
-A reusable VT Emulator written in NodeJS.
+## vt.js: A reusable VT Emulator written in NodeJS.
 
 `vt.js` can be useful for:
 - Writing a terminal emulator
@@ -59,6 +57,7 @@ term.on('resize', function(cols, rows) {
 data coming directy form the pty and translates VT10x character sequences 
 into events that it emits. The list of events emitted can be found in the file
 `lib/vt.js`.
+
 - `term`: term interprets the events received by `vt` (without knowledge of 
 VT10x character sequences) and interprets them to maintain the state of the
 current buffer, scrollback buffer and cursor. It itself emits simple events on
@@ -67,9 +66,9 @@ used for rendering of the screen in any given UI system.
 
 ### Todo
 
-- [ ] Extend test suite
-- [ ] Handle all `vttest` corner cases
-- [ ] Optimize `refresh` semantics 
+- Extend test suite
+- Handle all `vttest` corner cases
+- Optimize `refresh` semantics 
 
 ### License
 
