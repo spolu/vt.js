@@ -1,6 +1,6 @@
 {
   "name": "vt.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A reusable VT Emulator written in NodeJS",
   "author": "Stanislas Polu <polu.stanislas@gmail.com>",
   "repository": {
